@@ -10,7 +10,7 @@ Maybe a neural network could just style it's way around the issue, in the way th
 In its current form, playing should be pretty self-explanatory. The program will ask each player what they want to do and will
 present them with the cards that they can see. 
 
-#_______________Philosophical notes on object-oriented______________________
+Philosophical notes on object-oriented______________________
 #What does a player object know? Is this just a matter of convenience, or is it a good way of thinking about object oriented programming?
 #It makes sense that the ability to make manual movements belongs to the players. It makes sense that hands also belong to the players.
 #Could be argued that friends, decks and boards shouldn't be part of the player, but deck is referenced several times so it must be easier, ditto boards.
@@ -20,8 +20,8 @@ present them with the cards that they can see.
 #a strategy should be independent of the game state and should read the game state almost certainly, that makes the most sense.
 #Giving clues? I'm putting that as part of the player because other actions are with the player. Also because there's physical pointing going on irl. But there's no coding need for
 #it to belong to the player - is that me overthinking the philosophy here then? Brutal code or ontological sensibility?
-#
-#_____To do list_____
+
+To do list_____
 #Work out reordering the hand in game context?
 #We should probably draw a card into a specified spot. 
 #start looking at how to make an AI? Do I need to write the evaluation function myself?
